@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{00000000-0000-0000-0000-000000000000}") = "AjaxFileUpload", "AjaxFileUpload.csproj", "{77EA7352-47DC-4DB7-A005-081AE407D102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77EA7352-47DC-4DB7-A005-081AE407D102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EA7352-47DC-4DB7-A005-081AE407D102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EA7352-47DC-4DB7-A005-081AE407D102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EA7352-47DC-4DB7-A005-081AE407D102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
