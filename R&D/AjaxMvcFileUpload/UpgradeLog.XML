@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AjaxFileUpload">
+</Property><Property Name="Solution File" Value="G:\SVN\Other\AjaxMvcFileUpload\AjaxFileUpload.sln">
+</Property><Property Name="Date" Value="Saturday, December 03, 2011">
+</Property><Property Name="Time" Value="23:34 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AjaxFileUpload.sln" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\AjaxFileUpload.sln">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="AjaxFileUpload.csproj" Description="Project file successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\AjaxFileUpload.csproj">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Controllers\HomeController.cs" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Controllers\HomeController.cs">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Controllers\UploadController.cs" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Controllers\UploadController.cs">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Default.aspx.cs" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Global.asax.cs" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Global.asax.cs">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Helpers\FileUploadJsonResult.cs" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Helpers\FileUploadJsonResult.cs">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Content\busy.gif" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Content\busy.gif">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Content\check48.png" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Content\check48.png">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Default.aspx" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Default.aspx">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Global.asax" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Global.asax">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Scripts\jquery.blockUI.js" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Scripts\jquery.blockUI.js">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Scripts\jquery.form.js" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Scripts\jquery.form.js">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Views\Home\About.aspx" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Views\Home\About.aspx">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Web.config" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Web.config">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Content\Site.css" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Content\Site.css">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Views\Home\Index.aspx" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Views\Home\Index.aspx">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Views\Shared\Error.aspx" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Views\Shared\Error.aspx">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Views\Shared\Site.Master" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Views\Shared\Site.Master">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="Views\Web.config" Description="File successfully backed up as G:\SVN\Other\AjaxMvcFileUpload\Backup\Views\Web.config">
+</Event><Event ErrorLevel="0" Project="AjaxFileUpload" Source="AjaxFileUpload.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AjaxFileUpload" Source="AjaxFileUpload.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="AjaxFileUpload" Source="AjaxFileUpload.csproj" Description="The project file 'G:\SVN\Other\AjaxMvcFileUpload\AjaxFileUpload.csproj' cannot be opened.&#xA;&#xA;The project type is not supported by this installation.">
+</Event><Event ErrorLevel="0" Project="" Source="AjaxFileUpload.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AjaxFileUpload.sln" Description="Converted">
+</Event></UpgradeLog>
