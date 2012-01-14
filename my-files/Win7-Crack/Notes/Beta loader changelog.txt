@@ -1,0 +1,86 @@
+W7 LOADER 0.94-DAZ
+==================
+
+0.94:
+	* New SLIC table placement method using lower memory when
+	  available, otherwise previous method is used.
+	  Previous method available from recovery menu ("Older" option)
+
+0.93:
+	* Recovery menu now accessed by pressing ESC or R (Opa)
+	* Changed "Windows 7" to "Windows" in menu (MyDigitalWife)
+	  
+0.92:
+	* Typo fix in help text
+	* Fixed changelog version mess
+
+0.91:
+	* Incorrect checksum issue in some cases (thanks tuvi123)
+	* Several bug fixes relating to table relocation
+
+0.90 / Beta 8d:
+	* Moves out individual tables in the way of XSDT or RSDT expansion
+	  if at all possible. If this fails, proceeds with usual relocaton.
+	  This should help Mac compatibility. (thanks Barrym)
+
+Beta 8c:
+	* Re-added a couple of lines of code that got removed by mistake
+
+Beta 8b:
+	* Use alt mode when table clash occurs
+
+Beta 8a:
+	* Tiny correction to an error check
+
+Beta 8:
+	* Write-protected XSDT/RSDT tables are relocated (Dell, HP, etc.)
+	  Simulated in VBox and on my PC this works, but not tested in
+	  real world yet. May need tweaking.
+	* Installs new tables and SLIC to lower memory if needed
+	* New ACPI locating code; conforms to spec now (oops)
+	* Removed some debug messages that could sometimes appear
+	  during successful boot (still visible in --debug)
+	* Still better SLIC placement (ongoing tweaks)
+	* Couple of small errors fixed from beta 7
+	* Added forced alternative loader mode (--alt) for testing.
+	  Access this from the recovery menu.
+	* Fixed rare checksum-correcting bug (another oops)
+
+Beta 7:
+	* Simplified debug output for easier debugging
+	* All fatal errors wait for a key press before continuing, 
+          so you can read the error! It helps... :)
+	* Detects write-protected RSDT/XSDT (Dell, HP, etc.)
+	  (currently no fix, just exits)
+	* Better table extending code (+ fixed bugs)
+	* Better SLIC placement in some cases
+
+Beta 6:
+	* Locates more ACPI tables accurately now (sleep fix?)
+	* Fixed handling of table positions
+	* More checks
+
+Beta 5:
+	* New feature: forceful mode. Tries to activate on systems where
+	  some checks don't complete successfully. May cause problems.
+	  Access this from the recovery menu.
+	* More fine tuning
+
+Beta 4:
+	* Fixed bug: potentially not enough internal table storage
+	* Internal change: OEM data correctly copied from SLIC (Daz)
+	* Recovery menu bug fixes; also now red
+
+Beta 3:
+	* More verification and safety checks
+	* Fix for Hazar's odd computer :) Thanks Hazar!
+	* Full recovery menu included (see below))
+	* Adjusted SLIC information for easier updates
+
+Beta 2:
+	* Alters the RSDT table in the same way as the XSDT table 
+	* Many more pointer checks to reduce crash likelihood 
+	* Optimised menu.lst
+
+Beta:
+	* Initial version

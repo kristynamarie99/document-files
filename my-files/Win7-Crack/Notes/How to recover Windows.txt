@@ -1,0 +1,11 @@
+If your PC is unable to boot back into Windows 7 after installing a loader don't panic, simply do the following.
+
+* Boot up your PC from your Windows 7 install disk
+* Select the "Repair your computer" option
+* Select to open "Command Prompt"
+* Input "bootsect.exe /nt60 c:" (without quotes)
+* Restart
+
+
+*** If it still doesn't work try the command as "bootsect.exe /nt60 all" (without quotes)
+*** If you are using the default loader then press the escape key (or R) during the boot process and select "Windows without loader"
