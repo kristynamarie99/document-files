@@ -1,0 +1,36 @@
+/silent
+ Turns on silent mode
+
+/restart
+ Restart the OS after install (used with /silent)
+
+/bios
+ Install just the certificate and serial
+
+/k=XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+ Set the Windows 7/2008/Vista key
+
+/c=
+ Set the certificate (use the name of a certificate from the certificates folder or from the SLIC list)
+
+/s=
+ Set the SLIC (Acer, Alienware, Asus, Dell, Founder, Fujitsu, HP, Lenovo, MSI, Samsung, Toshiba)
+
+/l=
+ Set the loader (Default, Alternative, Older, Forceful, Custom)
+
+======
+* If you don't set the loader it will default to the normal option
+* If you don't set the certificate it will default to your BIOS's model
+* If you don't set the SLIC it will default to your BIOS's model
+* If you don't set the key it will default to your BIOS's model and the correct one for the OS (Ultimate, Professional or Home Premium)
+* You can use these arguments via SetupComplete.cmd to pre-activate Windows 7/Vista/Server 2008
+======
+
+Example:
+"D:\Windows 7 Loader.exe" /silent /restart /k=342DG-6YJR8-X92GV-V7DCV-P4K27 /c=Acer /s=Acer /l=Default
+
+
+SetupComplete.cmd Example:
+@ECHO OFF
+start /wait %systemroot%\setup\scripts\Windows7Loader.exe /silent /restart /l=Default

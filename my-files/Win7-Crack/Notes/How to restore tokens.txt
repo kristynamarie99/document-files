@@ -1,0 +1,16 @@
+1. Type cmd in Start menu.
+2. Right-click on the first result (cmd.exe) and click on Run as administrator (confirm by clicking Yes if required).
+3. Type
+
+ slmgr -rilc
+ net stop sppsvc
+ cd %windir%\ServiceProfiles\NetworkService\AppData\Roaming\Microsoft\SoftwareProtectionPlatform
+ rename tokens.dat tokens.bak
+ net start sppsvc
+
+4. Restart your computer 2 times.
+
+
+
+_____________________
+Credits to Opa (MDL).
